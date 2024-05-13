@@ -1,0 +1,8 @@
+version: '3'
+services:
+    myapp:
+        image: yakhub4881/myapp:1.0
+        container_name: cn1
+        ports:
+          - 8081:80
+
